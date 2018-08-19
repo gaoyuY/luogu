@@ -11,8 +11,9 @@ int main () {
     int num = 0;
     scanf ("%d%d", &n, &x);
     for (int i = 1; i <= n; i++) {
+        
         int y = i;
-        while (!y) {
+        while (y) {
             if (y % 10 == x) {
                 num++;
             }
